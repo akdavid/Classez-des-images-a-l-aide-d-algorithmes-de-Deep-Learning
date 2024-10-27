@@ -1,0 +1,22 @@
+# Ignorer les dossiers de données, modèles et sorties
+data/
+data_2/
+run_*/logs/
+original_data/
+others/
+run_augmented/
+run_first_convolutions/
+run_full/
+run_transfer_vgg16/
+
+# Ignorer les caches et fichiers système
+__pycache__/
+.ipynb_checkpoints
+*.DS_Store
+
+# Ignorer les fichiers de modèles
+*.h5
+*.ckpt
+
+# Ignorer l'environnement virtuel
+.venv
