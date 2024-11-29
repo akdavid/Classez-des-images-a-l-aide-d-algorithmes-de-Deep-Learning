@@ -8,6 +8,7 @@ run_augmented/
 run_first_convolutions/
 run_full/
 run_transfer_vgg16/
+selected_data_2/split_data/
 
 # Ignorer les caches et fichiers système
 __pycache__/
@@ -20,3 +21,6 @@ __pycache__/
 
 # Ignorer l'environnement virtuel
 .venv
+
+# Ignorer les livrables
+livrables/
